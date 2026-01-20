@@ -1,0 +1,7 @@
+-s ${eclipse_home}/../tools/share/openocd/scripts
+-s ${eclipse_home}/../tools/share/openocd/scripts/interface/ftdi
+-s ${eclipse_home}/../tools/share/openocd/scripts/interface
+-s ${eclipse_home}/../tools/share/openocd/scripts/target
+-f ftdi/vg015_dev_onboard_ftdi.cfg
+-f k1921vg015.cfg
+-c "init; halt"
